@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>AluraBooks</title>
+ <link rel="stylesheet" href="reset.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+ <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <header class="cabeçalho">
+ <div class="container">
+ <input type="checkbox" id="menu" class="container__botao">
+ <label for="menu" class="container__rotulo">
+ <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+ </label>
+ <ul class="lista-menu">
+ <li class="lista-menu__titulo">Categorias</li>
+ <li class="lista-menu__item">
+ <a href="#" class="lista-menu__link">Programação</a>
+ </li>
+ <li class="lista-menu__item">
+ <a href="#" class="lista-menu__link">Front-end</a>
+ </li>
+ <li class="lista-menu__item">
+ <a href="#" class="lista-menu__link">Infraestrutura</a>
+ </li>
+ <li class="lista-menu__item">
+ <a href="#" class="lista-menu__link">Business</a>
+ </li>
+ <li class="lista-menu__item">
+ <a href="#" class="lista-menu__link">Design & UX</a>
+ </li>
+ </ul>
+ <img src="img/logo1.jpeg" alt="Logo da Terras Verdes" class="container__imagem">
+ <h1 class="container__titulo"><b class="container__titulo--negrito">Terras</b>Verdes</h1>
+ </div>
+ <ul class="opções">
+ <input type="checkbox" id="opções-menu" class="opções__botão">
+ <label for="opções-menu" class="opções__rotulo">
+ <li class="opções__item">Categorias</li>
+ </label>
+ <ul class="lista-menu">
+ <li class="lista-menu__item">
+ <a href="#" class="lista-menu__link">Programação</a>
+ </li>
+ <li class="lista-menu__item">
+ <a href="#" class="lista-menu__link">Front-end</a>
+ </li>
+ <li class="lista-menu__item">
+ <a href="#" class="lista-menu__link">Infraestrutura</a>
+ </li>
+ <li class="lista-menu__item">
+ <a href="#" class="lista-menu__link">Business</a>
+ </li>
+ <li class="lista-menu__item">
+ <a href="#" class="lista-menu__link">Design & UX</a>
+ </li>
+ </ul>
+ <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+ <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+ </ul>
+ <div class="container">
+ <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+ class="container__imagem container__imagem-transparente"></a>
+ <a href="#" class="container__link">
+ <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+ <p class="container__texto">Minha sacola</p>
+ </a>
+ <a href="#" class="container__link">
+ <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+ <p class="container__texto">Meu perfil</p>
+ </a>
+ </div>
+ </header>
+ <section class="banner">
+ <h2 class="banner__titulo">Produtos da fazenda Terras Verdes</h2>
+ <p class="banner__texto">Produtos naturais diretamente da fazenda para sua mesa!!</p>
+ <input type="search" class="banner__pesquisa" placeholder="Confira os nossos produtos">
+ </section>
+ <section class="carrossel">
+ <h2 class="carrossel__titulo">Novos lançamentos</h2>
+ <!-- Slider main container -->
+ <div class="carrossel__container">
+ <div class="swiper">
+ <!-- Additional required wrapper -->
+ <!-- If we need pagination -->
+ <div class="swiper-pagination"></div>
+ <div class="swiper-wrapper">
+ <!-- Slides -->
+ <div class="swiper-slide"><img src="img/leitet1.jpeg"
+    <p>" ></p> 
+ </div>
+ <div class="swiper-slide"><img src="img/Agrotóxico.jpeg"
+    <p> <caption> <strong> </staption></p>
+ </div>
+ <div class="swiper-slide"><img src="img/carne.jpeg"
+
+ alt="Livro sobre javascript assertivo da alurabooks"></div>
+
+ <!-- If we need navigation buttons -->
+ <div class="swiper-button-prev"></div>
+ <div class="swiper-button-next"></div>
+ </div>
+ <div class="card">
+ <!-- 1º linha -->
+ <div class="card__descrição">
+ <!-- 1º coluna -->
+ <div class="descrição">
+ <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+ <h2 class="descrição__titulo-livro">Conheça nossos cursos</h2>
+ </div>
+ <img src="img/Angular.svg" class="descrição__imagem">
+ </div>
+ <!-- 2º linha -->
+ <div class="card__botões">
+ <!-- 1º coluna -->
+ <!-- 2º coluna -->
+ </div>
+ </div>
+ </div>
+ </section>
+ <section class="carrossel">
+ <h2 class="carrossel__titulo">Cursos</h2>
+ <!-- Slider main container -->
+ <div class="carrossel__container">
+ <div class="swiper">
+ <!-- Additional required wrapper -->
+ <!-- If we need pagination -->
+ <div class="swiper-pagination"></div>
+ <div class="swiper-wrapper">
+ <!-- Slides -->
+ <div class="swiper-slide"><img src="img/Curso água.jpeg"
+ alt="Livro sobre apache kafka e spring boot da alura books"></div>
+ <div class="swiper-slide"><img src="img/mina.jpeg"
+ alt="Livro sobre liderança em design da alura books"></div>
+ <div class="swiper-slide"><img src="img/Curso estufa.jpeg"
+ alt="Livro sobre javascript assertivo da alurabooks"></div>
+ </div>
+ <!-- If we need navigation buttons -->
+ <div class="swiper-button-prev"></div>
+ <div class="swiper-button-next"></div>
+ </div>
+ <div class="card">
+ <!-- 1º linha -->
+ <div class="card__descrição">
+ <!-- 1º coluna -->
+ <div class="descrição">
+ <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+ <h2 class="descrição__titulo-livro">Colégio Wolff Klabin</h2>
+ <p class="descrição__texto">Desenvolvido pelos alunos do 2° D
+ </p>
+ </div>
+ <!-- 2º coluna -->
+ <img src="img/Escritora.svg" class="descrição__imagem">
+ </div>
+ <!-- 2º linha -->
+ <div class="card__botões">
+ <!-- 1º coluna -->
+ <!-- 2º coluna -->
+ <a href="#" class="botões__ancora">Saiba mais</a>
+ </div>
+ </div>
+ </div>
+ </section>
+ <section class="tópicos">
+ <h2 class="tópicos__titulo">Produtos mais vendidos</h2>
+ <ul class="tópicos__lista">
+ <li class="tópicos__item">
+ <a href="#" class="tópicos__link">Leite</a>
+ </li>
+ <li class="tópicos__item">
+ <a href="#" class="tópicos__link">Carne</a>
+ </li>
+ <li class="tópicos__item">
+ <a href="#" class="tópicos__link">Curso "Novas Descobertas"</a>
+ </li>
+ <li class="tópicos__item">
+ <a href="#" class="tópicos__link">Agrotóxico Natural</a>
+ </li>
+ </ul>
+ </section>
+ <section class="contato">
+ <div class="contato__descrição">
+ <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+ <p class="contato__texto">Atualizações de novidades, promoções e outros.</p>
+ </div>
+ <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+ </section>
+ <hr />
+ <footer class="rodapé">
+ </ul>
+ </footer>
+ <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+ <script>
+ const swiper = new Swiper('.swiper', {
+ spaceBetween: 10,
+ slidesPerView: 3,
+ pagination: {
+ el: '.swiper-pagination',
+ type: 'bullets',
+ },
+ });
+ </script>
+</body>
+</html>
